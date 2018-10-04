@@ -12,10 +12,10 @@ def alphabetize(arr)
   end
 end
 
+#This didn't work because it only accounted for first letter:
+
 # def alphabetize(arr)
 #   arr.sort_by do | sentence |
 #       ESPERANTO_ALPHABET.index(sentence[0])
 #     end
 # end
-
-# ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
