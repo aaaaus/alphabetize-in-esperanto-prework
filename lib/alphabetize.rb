@@ -4,7 +4,8 @@ require "pry"
 
 def alphabetize(arr)
   arr.sort_by do | sentence |
-    sentence.split("")
+    sentence.split("").each do | character |
+      
   
   
 end
