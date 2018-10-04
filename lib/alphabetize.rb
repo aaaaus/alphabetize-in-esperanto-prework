@@ -12,6 +12,8 @@ def alphabetize(arr)
   end
 end
 
+puts arr
+
 # def alphabetize(arr)
 #   arr.sort_by do | sentence |
 #       ESPERANTO_ALPHABET.index(sentence[0])
