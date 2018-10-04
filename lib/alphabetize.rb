@@ -10,7 +10,6 @@ def alphabetize(arr)
       ESPERANTO_ALPHABET.index(element)
     end
   end
-  binding.pry
 end
 
 # def alphabetize(arr)
