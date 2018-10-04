@@ -5,7 +5,7 @@ require "pry"
 def alphabetize(arr)
   arr.sort_by do | sentence |
     sentence.split("").each do | character |
-      ESPERANTO_ALAPHABET.index
+      ESPERANTO_ALAPHABET.index(character)
   
   
 end
